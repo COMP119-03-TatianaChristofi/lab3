@@ -12,5 +12,6 @@
 const int MAX_COL = 4;
 
 void printMatrix(const double mat[][MAX_COL], const int maxRow);
+void fillWithRandomNum(double mat[][MAX_COL], const int maxRow);
 
 #endif // MATRIX_H
