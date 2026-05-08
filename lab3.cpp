@@ -21,6 +21,10 @@ int main()
 
 	printMatrix(mat ,MAX_ROW);
 
+	fillWithRandomNum(mat, MAX_ROW);
+
+	printMatrix(mat, MAX_ROW);
+
 	cout << endl;
 	cout << "Have a nice day;)";
 	return 0;

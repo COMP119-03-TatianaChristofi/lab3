@@ -26,4 +26,16 @@ void printMatrix(const double mat[][MAX_COL], const int maxRow) {
 		}
 	}
 }
-void fillWithRandomNum(double mat[][MAX_COL], const int maxRow);
+/**
+* 
+*/
+void fillWithRandomNum(double mat[][MAX_COL], const int maxRow) {
+	assert(maxRow > 0);
+
+	for (int i = 0; i < maxRow; i++) {
+		cout << endl;
+		for (int j = 0; j < MAX_COL; j++) {
+			mat[i][j] = 0; //@todo
+		}
+	}
+}
