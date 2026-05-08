@@ -17,5 +17,12 @@ using namespace std;
 void printMatrix(const double mat[][MAX_COL], const int maxRow) {
 	assert(maxRow > 0);
 	
-	cout << "Print Matrix" <<maxRow<< endl;
+	cout << "Printing Matrix " <<maxRow<<" by "<<MAX_COL<<endl;
+
+	for (int i = 0; i < maxRow; i++) {
+		cout << endl;
+		for (int j = 0; j < MAX_COL; j++) {
+			cout << mat[i][j] << "\t";
+		}
+	}
 }

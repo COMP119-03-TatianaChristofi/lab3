@@ -20,7 +20,8 @@ int main()
 	double mat[MAX_ROW][MAX_COL] = { 0,1,2,3,4,5,6,7 };
 
 	printMatrix(mat ,MAX_ROW);
-	
+
+	cout << endl;
 	cout << "Have a nice day;)";
 	return 0;
 }
