@@ -14,7 +14,12 @@
 
 using namespace std;
 /**
+* This function...
 * 
+* @param mat The..
+* @param column The..
+* @param maxRow ..
+* @return Returns the total ..
 */
 double sumOfCol(const double mat[][MAX_COL], const int column, const int maxRow) {
 	double sum = 0;
