@@ -25,6 +25,8 @@ int main()
 
 	printMatrix(mat, MAX_ROW);
 
+	cout << "\nSum of coloum 0:" << sumOfCol(mat, 0, MAX_ROW);
+
 	cout << endl;
 	cout << "Have a nice day;)";
 	return 0;

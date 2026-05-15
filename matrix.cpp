@@ -9,8 +9,16 @@
 #include "matrix.h"
 #include <iostream>
 #include <cassert>
+#include <cstdlib>
+#include <ctime>
 
 using namespace std;
+/**
+* 
+*/
+double sumOfCol(const double mat[][MAX_COL], const int column, const int maxRow) {
+	return 0;
+}
 /**
 * 
 */
@@ -35,7 +43,7 @@ void fillWithRandomNum(double mat[][MAX_COL], const int maxRow) {
 	for (int i = 0; i < maxRow; i++) {
 		cout << endl;
 		for (int j = 0; j < MAX_COL; j++) {
-			mat[i][j] = 0; //@todo
+			mat[i][j] = MAT_RAND_MIN + rand() % (MAT_RAND_MAX - MAT_RAND_MIN); //@todo
 		}
 	}
 }

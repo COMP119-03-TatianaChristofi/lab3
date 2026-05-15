@@ -10,7 +10,10 @@
 #define MATRIX_H
 
 const int MAX_COL = 4;
+const int MAT_RAND_MIN = 10; //Inclusive 
+const int MAT_RAND_MAX = 20; //Inclusive
 
+double sumOfCol(const double mat[][MAX_COL], const int column, const int maxRow);
 void printMatrix(const double mat[][MAX_COL], const int maxRow);
 void fillWithRandomNum(double mat[][MAX_COL], const int maxRow);
 
